@@ -33,11 +33,29 @@ end
 def number_to_full_month_name(number)
   return case number
   when 1
-    return "January"
+    "January"
+  when 2
+    "February"
   when 3
-    return "March"
+    "March"
+  when 4
+    "April"
+  when 5
+    "May"
+  when 6
+    "June"
+  when 7
+    "July"
+  when 8
+    "August"
   when 9
-    return "September"
+    "September"
+  when 10
+    "October"
+  when 11
+    "November"
+  when 12
+    "December"
    end
 end
 
@@ -45,9 +63,31 @@ def number_to_short_month_name(number)
   return case number
   when 1
     "Jan"
+  when 2
+    "Feb"
   when 3
     "Mar"
+  when 4
+    "Apr"
+  when 5
+    "May"
+  when 6
+    "Jun"
+  when 7
+    "Jul"
+  when 8
+    "Aug"
   when 9
     "Sep"
+  when 10
+    "Oct"
+  when 11
+    "Nov"
+  when 12
+    "Dec"
   end
+end
+
+def volume_of_cube(length)
+  return length**3
 end
