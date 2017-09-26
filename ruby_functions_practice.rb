@@ -13,3 +13,7 @@ end
 def multiply (firstnumber, secondnumber)
   return firstnumber * secondnumber
 end
+
+def devide (firstnumber, secondnumber)
+  return firstnumber / secondnumber
+end
