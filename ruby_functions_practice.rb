@@ -1,21 +1,21 @@
-def return_10
+def return_10 ()
   return 10
 end
 
-def add (firstnumber, secondnumber)
-  return firstnumber + secondnumber
+def add (first_number, second_number)
+  return first_number + second_number
 end
 
-def subtract (firstnumber, secondnumber)
-  return firstnumber - secondnumber
+def subtract (first_number, second_number)
+  return first_number - second_number
 end
 
-def multiply (firstnumber, secondnumber)
-  return firstnumber * secondnumber
+def multiply (first_number, second_number)
+  return first_number * second_number
 end
 
-def divide (firstnumber, secondnumber)
-  return firstnumber / secondnumber
+def divide (first_number, second_number)
+  return first_number / second_number
 end
 
 def length_of_string (string)
@@ -28,4 +28,15 @@ end
 
 def add_string_as_number (string_1, string_2)
   return string_1.to_i + string_2.to_i
+end
+
+def test_number_to_full_name (month_string)
+  return case month_string
+  when 1
+    "January"
+  when 3
+    "March"
+  when 9
+    "September"
+  end
 end
